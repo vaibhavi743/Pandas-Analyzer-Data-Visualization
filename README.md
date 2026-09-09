@@ -48,6 +48,7 @@ Project-9/
 ├── sales_data.csv
 ├── README.md
 └── scatter_plot.png
+```
 
 ## 📄 File Description
 
@@ -56,7 +57,7 @@ sales_data.csv	Sample sales dataset
 README.md	Project documentation
 scatter_plot.png	Saved visualization
 
-📊 Dataset
+## 📊 Dataset
 
 The project uses sales_data.csv.
 
@@ -68,7 +69,7 @@ Region	Sales region
 Sales	Sales amount
 Year	Year of sale
 
-✨ Features
+## ✨ Features
 
 📥 Load CSV Dataset
 🔍 Explore Data
@@ -87,7 +88,7 @@ Year	Year of sale
 📊 Create Visualizations
 💾 Save Visualizations
 
-🧹 Missing Data Handling
+## 🧹 Missing Data Handling
 
 The project provides options to:
 Display rows containing missing values
@@ -98,7 +99,7 @@ Replace missing values with a specific value
 Example:
 df["Sales"] = df["Sales"].fillna(df["Sales"].mean())
 
-📈 Statistical Analysis
+## 📈 Statistical Analysis
 
 Descriptive statistics are generated using Pandas.
 df.describe()
@@ -111,7 +112,7 @@ Maximum
 Standard Deviation
 Quartiles
 
-📊 Data Visualization
+## 📊 Data Visualization
 
 The project uses Matplotlib to create:
 Chart	Purpose
@@ -124,7 +125,7 @@ Stack Plot	Compare cumulative values
 
 Charts can be customized with titles, labels, legends, and appropriate figure sizes.
 
-💾 Save Visualization
+## 💾 Save Visualization
 
 Generated plots can be saved as PNG files.
 Example:
@@ -134,7 +135,7 @@ plt.savefig(
     bbox_inches="tight"
 )
 
-🧭 Application Menu
+## 🧭 Application Menu
 
 ==================================================
      DATA ANALYSIS & VISUALIZATION PROGRAM
@@ -149,7 +150,7 @@ plt.savefig(
 7. Save Visualization
 8. Exit
 
-🔄 Project Workflow
+## 🔄 Project Workflow
 
 Load Dataset
      ↓
@@ -165,7 +166,7 @@ Visualize Data
      ↓
 Save Results
 
-🚀 Installation
+## 🚀 Installation
 
 1. Check Python
 python --version
@@ -174,7 +175,7 @@ pip install pandas matplotlib
 Or:
 python -m pip install pandas matplotlib
 
-▶️ Run the Project
+## ▶️ Run the Project
 
 When asked for the dataset path, enter:
 sales_data.csv
@@ -185,7 +186,7 @@ project9.ipynb
 
 Run the cells from top to bottom.
 
-🧪 Example
+### 🧪 Example
 
 To create a Scatter Plot:
 Main Menu
@@ -204,7 +205,7 @@ Main Menu
    ↓
 scatter_plot.png
 
-💡 Analysis Insights
+## 💡 Analysis Insights
 
 The project can be used to identify:
 Total and average sales
@@ -217,7 +218,7 @@ High-value sales records
 
 Actual insights depend on the dataset provided.
 
-📌 Assumptions
+## 📌 Assumptions
 
 Input data is provided in CSV format.
 Column names are entered correctly.
@@ -226,7 +227,7 @@ Year contains valid year values.
 Product and Region are categorical columns.
 Generated CSV files and visualizations are saved in the current working directory.
 
-🔮 Future Scope
+## 🔮 Future Scope
 
 The project can be extended with:
 Interactive dashboards using Streamlit
@@ -237,11 +238,11 @@ Machine Learning prediction
 Interactive filters
 Automated business insights
 
-🧠 Learning Outcomes
+## 🧠 Learning Outcomes
 
 This project provides practical experience with:
 
-Python
+**Python**
 
 Functions
 Loops
@@ -249,7 +250,7 @@ Conditions
 User Input
 Menu-driven Programming
 
-Pandas
+**Pandas**
 
 DataFrames
 CSV Handling
@@ -261,7 +262,7 @@ Pivot Tables
 Missing Values
 Statistical Analysis
 
-Matplotlib
+**Matplotlib**
 
 Bar Plot
 Line Plot
@@ -271,7 +272,7 @@ Histogram
 Stack Plot
 Saving Figures
 
-👩‍💻 Author
+### 👩‍💻 Author
 
 Vaibhavi Khokhani
 BCA Graduate | Python & AI Learner
