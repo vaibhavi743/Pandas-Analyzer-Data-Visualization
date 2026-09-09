@@ -49,7 +49,7 @@ Project-9/
 ├── README.md
 └── scatter_plot.png
 
-## File	Description
+📄 File Description
 
 project9.ipynb	Cell-wise notebook implementation
 sales_data.csv	Sample sales dataset
